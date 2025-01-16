@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    
+	    if(x<y){
+	        cout<<-1<<"\n";
+	        continue;
+	    }
+	    
+	    if(x==y){
+	        cout<<-1<<"\n";
+	        continue;
+	    }
+	    
+	    if(x>y){
+	        cout<<2*y + 1<<"\n";
+	        continue;
+	    }
+	}
+
+}
